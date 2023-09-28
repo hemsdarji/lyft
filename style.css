@@ -1,0 +1,12 @@
+
+.nav-item.vertical-line {
+    border-left: 1px solid #e0dede; /* Adjust the color and style as needed */
+    height: 5rem;/* Adjust the height of the vertical line as needed */
+    margin: 0 10px; /* Adjust the margin to control the spacing between the links and the vertical line */
+  }
+
+.lets-ride{
+    font-size: 80px;
+}
+
+  
