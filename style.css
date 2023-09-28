@@ -5,6 +5,11 @@
     margin: 0 10px; /* Adjust the margin to control the spacing between the links and the vertical line */
   }
 
+  .logo-img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+  }
+
 .lets-ride{
     font-size: 80px;
 }
