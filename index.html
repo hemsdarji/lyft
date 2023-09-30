@@ -28,9 +28,52 @@
           <a class="nav-link active" aria-current="page" href="#">
             <button type="button" class="btn btn-primary py-2 px-4 rounded-pill fw-bold">Get a ride</button>
           </a>
-          <a class="nav-link active d-block d-lg-none" aria-current="page" href="#">
-            icon
+
+
+          <a class="btn nav-link active d-block d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample"
+            role="button" aria-controls="offcanvasExample">
+            <i class="fa fa-bars" aria-hidden="true"></i>
           </a>
+
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <a href="#">
+                <img src="./public/lyftlogo.png" alt="Logo" class="logo-img">
+              </a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div>
+              <ul class="nav d-grid align-items-center justify-content-center fs-3 gap-3 ">
+                <li class="nav-item ">
+                </li>
+                <li class="nav-item bottom-line"></li>
+                <li class="nav-item">
+                  <a class="nav-link  fw-bold" href="#">DRIVER</a>
+                </li>
+                <li class="nav-item bottom-line"></li>
+                <li class="nav-item">
+                  <a class="nav-link  fw-bold" href="#">RIDER</a>
+                </li>
+                <li class="nav-item bottom-line"></li>
+                <li class="nav-item">
+                  <a class="nav-link  fw-bold" href="#">BUSINESS</a>
+                </li>
+                <li class="nav-item bottom-line"></li>
+                <li class="nav-item">
+                  <a class="nav-link  fw-bold" href="#">LOG IN </a>
+                </li>
+                <li class="nav-item bottom-line"></li>
+                <li class="nav-item">
+                  <a class="nav-link  fw-bold" href="#">SING UP</a>
+                </li>
+                <li class="nav-item bottom-line"></li>
+              </ul>
+            </div>
+          </div>
+
+
+
           <ul class="nav justify-content-end d-none d-lg-flex align-items-center justify-content-center ">
             <li class="nav-item ">
             </li>
@@ -55,7 +98,7 @@
               <a class="nav-link  fw-bold" href="#">SING UP</a>
             </li>
             <span class="material-symbols-outlined" id="icon">
-              <i class="fas fa-sun"></i> <!-- Light mode icon -->
+              <i class="fas fa-sun"></i>
             </span>
           </ul>
         </div>
@@ -68,12 +111,12 @@
         </div>
         <div class="col-lg-5 align-items-start">
           <div class="fw-bold  lets-ride"> Let’s ride </div>
-           <button class="btn btn-primary rounded-pill px-4 py-2 fw-bold">Apply to drive</button>
-           <button class="btn btn-outline-primary rounded-pill px-4 py-2 fw-bold">Sing up to drive</button>
+          <button class="btn btn-primary rounded-pill px-4 py-2 fw-bold">Apply to drive</button>
+          <button class="btn btn-outline-primary rounded-pill px-4 py-2 fw-bold">Sing up to drive</button>
         </div>
       </div>
- 
-    <!--------------DRIVE WITH LYFT-------------->
+
+      <!--------------DRIVE WITH LYFT-------------->
 
       <div class="row  my-5 py-5 align-items-center  mx-auto ">
         <div class="col-lg-7 mx-auto px-5">
@@ -105,9 +148,9 @@
           </div>
 
           <div class="d-block d-sm-flex">
-              <button class="btn btn-primary rounded-pill  fw-bold">Apply to drive</button>
-              <button class="btn text-dark rounded-pill fw-bold">Sign up to drive<i
-                  class="bi bi-caret-right-fill px-1"></i></button>
+            <button class="btn btn-primary rounded-pill  fw-bold">Apply to drive</button>
+            <button class="btn text-dark rounded-pill fw-bold">Sign up to drive<i
+                class="bi bi-caret-right-fill px-1"></i></button>
           </div>
         </div>
 
@@ -115,14 +158,161 @@
           <img src="./public/driveimg.png" alt="" class="w-100 h-100 object-fit-cover" />
         </div>
       </div>
+
+
+    <!---------------------------carousel---------------------------->
+    <div class="home ">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(./public/cr-1.jpeg);">
+            <div class="container">
+              <p>“My motto is very simple. It doesn't cost you a penny to be nice and kind, but it will cost you <br />
+                everything if you're not. If I'm free and somebody needs my help, I'll be the first one to jump in, in a<br />
+                heartbeat.”</p>
+              <h2> — Timothy </h2>
+              <h6>Driving with Lyft since 2017</h6>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(./public/cr-2.jpeg)" ;>
+            <div class="container">
+              <p> “As a student, it’s hard to complete my class work around a schedule. I started driving more with Lyft<br />
+                and realized it was the perfect opportunity to make money and work on my own time! Driving with Lyft<br />
+                gives me freedom in my schedule to focus on school, which is my main priority.”</p>
+              <h2> — Harold </h2>
+              <h6>Driving with Lyft since 2020</h6>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(./public/cr-3.jpeg)" ;>
+            <div class="container">
+              <p> “I'm a disabled Marine Corps veteran, and because of my disability, I'm no longer able to work in a<br />
+                structured environment. The few hours a week that I drive connects me to my community and gives me extra<br />
+                money to help make ends meet.”</p>
+              <h2> — Christine </h2>
+              <h6>Driving with Lyft since 2016</h6>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+<!-- ------------------------------------------------------------------------- -->
+
+
+<div class="row  my-5 py-5 align-items-center  mx-auto ">
+  <div class="col-lg-7 mx-auto px-5">
+    <div class="mb-3">DRIVE WITH LYFT</div>
+    <div class="fs-1 fw-bold mb-3">Ready, set, go <br />
+      in just a few quick taps</div>
+     <div class="mb-4">No matter your destination, we’ll get you where you need to go
+
+     </div>
+    <div class="d-flex align-items-center mb-3 align-items-lg-center">
+      <i class="bi bi-currency-dollar me-3 fs-5"></i>
+        <span class="mb-1 fw-bold">Get a reliable ride in minutes</span>
+    </div>
+
+    <div class="d-flex align-items-center mb-3 align-items-lg-start">
+      <i class="bi bi-clock-history me-3 fs-5"></i>
+        <span class="mb-1 fw-bold">Schedule your ride in advance</span>
+    </div>
+
+    <div class="d-flex align-items-center mb-3 align-items-lg-start">
+      <i class="bi bi-lightning-charge  fs-5"></i>
+        <span class="mb-1 fw-bold">Earn rewards on every ride</span>
+    </div>
+
+    <div class="d-block d-sm-flex">
+      <button class="btn btn-primary rounded-pill  fw-bold">Get a ride</button>
+      <button class="btn text-dark rounded-pill fw-bold">Learn more about riding with Lyft<i
+          class="bi bi-caret-right-fill px-1"></i></button>
     </div>
   </div>
 
+  <div class="col-lg-5 align-items-start ">
+    <img src="./public/mobile-v.png" alt="mobile-view" class="w-100 h-100 object-fit-cover"/>
+  </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
-      <script src="index.js"></script>
+
+<div class="row  my-5 py-5 align-items-center  mx-auto ">
+
+  <div class="col-lg-6 align-items-start">
+    <img src="./public/lyftpink.png" alt="" class="w-100 h-100 object-fit-cover" />
+  </div>
+
+  <div class="col-lg-5 mx-auto px-6">
+    
+    <div class="fs-1 fw-bold mb-3">
+      We’re rolling out the red carpet</div>
+
+      <div class="py-2">Join the new Lyft Pink to enjoy complimentary upgrades to Priority Pickup, exclusive savings, and preferential pricing on Lux, XL, and Preferred rides. Members save an average of $23/month.
+
+      </div>
+
+    <div class="d-flex align-items-center mb-3 align-items-lg-start pt-3">
+      <i class="bi bi-currency-dollar me-3 fs-5"></i>
+      <div class="d-flex flex-column">
+        <span class="mb-1 fw-bold">Free Priority Pickup upgrades</span>
+        <span class="mb-1">Get picked up faster and save $3-4 per ride on average</span>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center mb-3 align-items-lg-start">
+      <i class="bi bi-clock-history me-3 fs-5"></i>
+      <div class="d-flex flex-column">
+        <span class="mb-1 fw-bold">Exclusive savings</span>
+        <span class="mb-1">Enjoy 5% off on Lux, XL, and Preferred rides</span>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center mb-3 align-items-lg-start">
+      <i class="bi bi-lightning-charge  fs-5"></i>
+      <div class="d-flex flex-column">
+        <span class="mb-1 fw-bold">Cancellation forgiveness</span>
+        <span class="mb-1">Cancel up to 3x/month for free</span>
+      </div>
+    </div>
+    <div class="d-flex align-items-center mb-3 align-items-lg-start">
+      <i class="bi bi-lightning-charge  fs-5"></i>
+      <div class="d-flex flex-column">
+        <span class="mb-1 fw-bold">Free Grubhub+ for a year</span>
+        <span class="mb-1">$0 restaurant delivery fees</span>
+      </div>
+    </div>
+
+    <div class="d-block d-sm-flex pt-3">
+      <button class="btn btn-primary rounded-pill  fw-bold">Get your friest month free</button>
+    </div>
+  </div>
+
+  
+</div>
+
+  </div>
+
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
   </div>
 </body>
 
